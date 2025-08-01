@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gu-aim</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .section{
+            width: 100vw;
+        }
+        .top{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+        }
+        .middle{
+            margin-top: 2em;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .bottom{
+            
+            /* text-align: center; */
+                margin-left: 7vw;
+                margin-top: 2em;
+            
+        }
+        input{
+            margin-top: 1em;
+            width: 35vw;
+            height: 2vw;
+            background-color: rgb(236, 234, 234);
+            border: none;
+            border-radius: 5px;
+        }
+        textarea{
+            margin-top: 1em;
+            width: 84vw;
+            background-color: rgb(236, 234, 234);
+            border: none;
+            border-radius: 5px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            margin-top: 4em;
+            text-align: center;
+            width: 50vw;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 2em;
+        }
+        .form div{
+            font-size: large;
+        }
+        .button{
+            font-size: large;
+        }
+        @media screen and (max-width:600px){
+            .top, .middle{
+                display: flex;
+                flex-direction: column;
+            }
+            *{
+                font-size: xx-large;
+            }
+            h2{
+                font-size:small;
+            }
+            input{
+            width: 84vw;
+            height: 9vw;
+            background-color: rgb(236, 234, 234);
+            border: none;
+            border-radius: 5px;
+            margin-top: 0;
+            margin-bottom: .5em;
+        }
+        .button{
+            font-size: small;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="./Images/logo.png" alt="">
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="" class="blue">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="text-top"><h1>Love to hear from you, <br> Get in touch <img src="./Images/hii.png" alt="">  </h1>
+        
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="top"><div><div>Your Name</div>
+        <input type="text">
+        </div>
+        <div><div>Your email</div>
+            <input type="email">
+            </div></div>
+            <div class="middle"><div><div>Your Phone Number</div>
+            <input type="number">
+            </div>
+            <div><div>Your interest</div>
+                <input type="text">
+                </div></div>
+        <div class="bottom">
+            <div>Message</div> <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <div class="btn"><button>Send</button></div>
+    
+
+    <div class="footer">
+        <h2>Designed and Developed by Raj Thakkar</h2>
+    </div>
+</body>
+</html>
