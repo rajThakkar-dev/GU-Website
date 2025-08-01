@@ -29,7 +29,7 @@ No JavaScript or external frameworks were used in this project, as per the exam 
 ## 📅 Time Taken
 
 - Total Time: **2 Hours**
-- Tools Used: VS Code (or your editor of choice)
+- Tools Used: VS Code
 
 ## 📚 Learning Outcome
 
@@ -39,11 +39,7 @@ No JavaScript or external frameworks were used in this project, as per the exam 
 
 ## 👨‍🎓 Author
 
-- Name: Raj Thacker *(or your actual name)*
+- Name: Raj Thakkar
 - University: Gujarat University
 - Semester: 4th
 - Subject: Web Development Exam Project
-
-## 📄 License
-
-This project is for educational purposes only.
